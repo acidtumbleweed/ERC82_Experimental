@@ -27,4 +27,5 @@ if (erc82.numLendingTo(owner, borrower, tokenId) > 0) { /* This wallet has lendi
 // These events are emitted whenever their respective functions are invoked
 emit Lend(from, to, id, value);
 emit Revoke(from, to, id, value);
-emit Return(from, to, id, value);'''
+emit Return(from, to, id, value);
+'''
