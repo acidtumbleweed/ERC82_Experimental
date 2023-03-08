@@ -1,0 +1,19 @@
+{
+  "name": "erc82_experimental",
+  "version": "1.0.0",
+  "description": "An ERC-1155 compliant token with lending abilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffery Sventora",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@vechain.energy/hardhat-thor": "^0.4.0",
+    "hardhat": "^2.13.0"
+  }
+}
