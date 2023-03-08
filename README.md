@@ -6,7 +6,8 @@
  For example, if wallet A owns 100 tokens and lends all 100 to wallet B, wallet A's balance will be 0.
 
 ## Sample Solidity
-'''// Lend Tokens
+```
+// Lend Tokens
 erc82.lendTo(from, to, tokenId, amount);
 
 // Revoke Tokens
@@ -28,4 +29,4 @@ if (erc82.numLendingTo(owner, borrower, tokenId) > 0) { /* This wallet has lendi
 emit Lend(from, to, id, value);
 emit Revoke(from, to, id, value);
 emit Return(from, to, id, value);
-'''
+```
